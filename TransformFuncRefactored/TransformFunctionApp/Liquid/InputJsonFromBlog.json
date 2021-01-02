@@ -1,0 +1,16 @@
+{
+  "FirstName": "Gaurav",
+  "LastName": "Sood",
+  "Company": "Accenture",
+  "department": "Integration Space",
+  "Work": [
+    {
+      "skil": "BizTalk Server",
+      "Mark": 95
+    },
+    {
+      "skil": "Function Apps",
+      "Mark": 95
+    }
+  ]
+}

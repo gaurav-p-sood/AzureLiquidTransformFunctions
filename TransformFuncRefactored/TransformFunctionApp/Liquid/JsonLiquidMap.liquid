@@ -1,0 +1,16 @@
+{%- assign deviceList = content.devices | Split: ', ' -%}
+
+{
+   "fullName": "{{content.firstName | Append: ' ' | Append: content.lastName | Upcase}}",
+   "firstNameUpperCase": "{{content.firstName | Upcase}}",
+   "phoneAreaCode": "{{content.phone | Slice: 0, 3}}",
+   "devices" : [
+      {%- for device in deviceList -%}
+         {%- if forloop.last == true -%}
+         "{{device}}"
+         {%- else -%}
+         "{{device}}",
+         {%- endif -%}
+      {%- endfor -%}
+   ]
+}

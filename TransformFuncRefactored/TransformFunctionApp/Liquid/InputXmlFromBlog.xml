@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <FirstName>Gaurav</FirstName>
+  <LastName>Sood</LastName>
+  <Company>Accenture</Company>
+  <department>Integration Space</department>
+  <Work>
+    <Skill>
+      <Mark>95</Mark>
+      <skil>Azure Integration</skil>
+    </Skill>
+    <Skill>
+      <Mark>95</Mark>
+      <skil>Function Apps</skil>
+    </Skill>
+  </Work>
+</root>

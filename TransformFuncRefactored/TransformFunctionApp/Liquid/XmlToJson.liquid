@@ -1,0 +1,14 @@
+{
+"Employee Name" : "{{ content.root.FirstName }} {{ content.root.LastName }}",
+"Company Name" : "{{ content.root.Company }}",
+"Date Of Joining" : "{{ "now" | Date: "MM/dd/yyyy" }}",
+"Department" : "{{ content.root.department }}",
+"Technology" : "{{ content.root.Work.Skill | Size }}",
+"Skills" : [
+{% for Skill in content.root.Work.Skill %}
+{
+"Name" : "{{ Skill.skil }}",
+"Marks" : "{{ Skill.Mark }}"
+},
+{% endfor %}
+] }
