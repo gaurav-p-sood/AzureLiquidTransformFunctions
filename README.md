@@ -18,14 +18,14 @@ The Code can be tested locally via Visual studio and a Postmane or by publishing
 
 In case you wish to try the code , I have hosted it on my APIM instance .
 
-  **Request URL Format 
+  #Request URL Format 
   https://biztalkers.in/external/TransformFA/V1/template/{templateName}
 
-  **Request URL sample
+  #Request URL sample
   https://biztalkers.in/external/TransformFA/V1/template/JsonLiquidMap.liquid
 
-  **Request Body Sample
-  POST https://biztalkers.in/external/TransformFA/V1/template/JsonLiquidMap.liquid HTTP/1.1
+  #Request Body Sample
+  POST https://biztalkers.in/external/TransformFA/V1/template/JsonLiquidMap.liquid HTTP/1.1 
   Host: biztalkers.in
   Ocp-Apim-Subscription-Key: abcd
   Accept: application/json
@@ -39,10 +39,10 @@ In case you wish to try the code , I have hosted it on my APIM instance .
   }
 
 
-   **Request URL
+   #Request URL
    https://biztalkers.in/external/TransformFA/V1/template/JsonLiquidMap.liquid
  
-For More information, Please log on to **https://www.biztalkers.in 
+#For More information, Please log on to **https://www.biztalkers.in 
 
 # Contribute
 Every is most welcome to make the code better by contirbuting towards it. 
