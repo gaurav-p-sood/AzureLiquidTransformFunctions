@@ -4,6 +4,7 @@
    "fullName": "{{content.firstName | Append: ' ' | Append: content.lastName | Upcase}}",
    "firstNameUpperCase": "{{content.firstName | Upcase}}",
    "phoneAreaCode": "{{content.phone | Slice: 0, 3}}",
+   "phone":"{{content.phone}}",
    "devices" : [
       {%- for device in deviceList -%}
          {%- if forloop.last == true -%}
